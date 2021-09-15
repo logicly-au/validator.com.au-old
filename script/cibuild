@@ -9,13 +9,12 @@ chmod a+w _source/.jekyll-cache
 mkdir -p vendor/var/jekyll
 sudo addgroup --gid 1000 jekyll
 sudo adduser --system \
-        --home $(pwd)/vendor/home/jekyll \
-        --uid 1000 \
-        --ingroup jekyll \
-        jekyll
+             --home $(pwd)/vendor/home/jekyll \
+             --uid 1000 \
+             --ingroup jekyll \
+             jekyll
 sudo chown -R jekyll:jekyll vendor/var/jekyll
 sudo chmod -R a+w vendor
-
 
 # Install dependencies
 docker-compose run site bundle install
