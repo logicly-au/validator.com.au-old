@@ -9,7 +9,7 @@ chmod a+w _source/.jekyll-cache
 mkdir -p vendor/var/jekyll
 sudo addgroup --gid 1000 jekyll
 sudo adduser --system \
-        --no-create-home \
+        --home ./vendor/home/jekyll \
         --uid 1000 \
         --ingroup jekyll \
         jekyll
