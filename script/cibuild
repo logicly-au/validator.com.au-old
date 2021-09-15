@@ -7,9 +7,12 @@ mkdir _source/.jekyll-cache
 chmod a+w _source/.jekyll-cache
 
 mkdir -p vendor/var/jekyll
-addgroup -Sg 1000 jekyll
-adduser  -Su 1000 -G \
-  jekyll jekyll
+addgroup --gid 1000 jekyll
+adduser --system \
+        --no-create-home \
+        --uid 1000 \
+        --ingroup jekyll \
+        jekyll
 chown -R jekyll:jekyll vendor/var/jekyll
 chmod -R a+w vendor
 
