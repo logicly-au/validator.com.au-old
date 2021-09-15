@@ -28,5 +28,5 @@ source:      _source
 destination: _site
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-last-modified-at
