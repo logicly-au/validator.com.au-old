@@ -1,10 +1,10 @@
 ---
 layout: default
-title: MDS Validator Change Log
-direction: MDS Validator Documentation
+title: Online Validator Change Log
+direction: Online Validator Documentation
 directory:
   - url: /mds-validator/index.html
-    name: MDS Validator Documentation
+    name: Online Validator Documentation
 last_modified: Monday, 01 June 2015, 12:32:53
 ---
 <p><strong>This page is no longer being updated.  The latest changes can be viewed at <a href="https://webval.validator.com.au/changes">https://webval.validator.com.au/changes</a></strong></p>
@@ -198,7 +198,7 @@ last_modified: Monday, 01 June 2015, 12:32:53
 <li>Add Bootstrap width styling to data survey textareas</li>
 </ul>
 <h3><a name="A_2012_4511_4526_403.01_43_4.02_41"></a>2012-11-26 (3.01 + 4.02)</h3>
-<p>Version 3 of the MDS Validator is a major upgrade from the previous version (2.08). The most significant change is that the validation data is now collected in a unified database (previously most validation data was stored in a per-file database). This change allows us to flexibly combine information from the submitted data, issues raised, and different data sets in order to provide more useful feedback on within file issues and report on cross dataset validations. The significant new feature in this release which relies on the new data store is the "Skeleton Entity Data Set" rules. These compare the entity structure of each MDS against a unified structure in order to ensure consistency between the data sets.The Validator user interface has also undergone a complete revamp, improving the look of the application and making it significantly more intuitive to navigate.Below is a more detailed list of the improvements included in this release.</p>
+<p>Version 3 of the Online Validator is a major upgrade from the previous version (2.08). The most significant change is that the validation data is now collected in a unified database (previously most validation data was stored in a per-file database). This change allows us to flexibly combine information from the submitted data, issues raised, and different data sets in order to provide more useful feedback on within file issues and report on cross dataset validations. The significant new feature in this release which relies on the new data store is the "Skeleton Entity Data Set" rules. These compare the entity structure of each MDS against a unified structure in order to ensure consistency between the data sets.The Validator user interface has also undergone a complete revamp, improving the look of the application and making it significantly more intuitive to navigate.Below is a more detailed list of the improvements included in this release.</p>
 <ul>
 <li>Unified database utilising PostgreSQL</li>
 <li>Complete UI revamp

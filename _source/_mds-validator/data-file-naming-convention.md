@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Data File Naming Convention
-direction: MDS Validator Documentation
+direction: Online Validator Documentation
 directory:
   - url: /mds-validator/index.html
-    name: MDS Validator Documentation
+    name: Online Validator Documentation
 last_modified: Tuesday, 27 May 2014, 14:07:59
 ---
 

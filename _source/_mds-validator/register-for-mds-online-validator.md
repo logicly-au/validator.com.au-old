@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Registering for the MDS Validator
-direction: MDS Validator Documentation
+title: Registering for the Online Validator
+direction: Online Validator Documentation
 directory:
   - url: /mds-validator/index.html
-    name: MDS Validator Documentation
+    name: Online Validator Documentation
 last_modified: Wednesday, 03 June 2015, 08:28:17
 ---
 <ul id="toc">
 <li>Table of contents</li>
 </ul>
-## Requesting and Managing Access to the MDS Validator
-<p>Access to the MDS Validator system is managed via the Strategic Data Authentication System (SDAS): <a href="https://auth.strategicdata.com.au">https://auth.strategicdata.com.au</a></p>
+## Requesting and Managing Access to the Online Validator
+<p>Access to the Online Validator system is managed via the Strategic Data Authentication System (SDAS): <a href="https://auth.strategicdata.com.au">https://auth.strategicdata.com.au</a></p>
 
-<p>This system enables users and their managers to register for and manage access to the MDS Validator, however, as it is currently in development Strategic Data will continue to manage this process.    </p>
+<p>This system enables users and their managers to register for and manage access to the Online Validator, however, as it is currently in development Logicly will continue to manage this process.    </p>
 
 ### Register for User Access
 <p>Your manager will need to email support@validator.com.au requesting you be registered for an account. If you are unsure who your manager is, please contact <a href="mailto:support@validator.com.au">support@validator.com.au</a>.</p>
@@ -22,7 +22,7 @@ last_modified: Wednesday, 03 June 2015, 08:28:17
 1. Managers request that a new user be added.  An email containing a link to verify the account and an SMS containing a temporary code are sent to the new user.
 2. The new user confirms their registration.
 3. Administrators add ‘attributes’ to the user.
-4. A confirmation email is sent to the user informing them that they now have access to the MDS Validator.
+4. A confirmation email is sent to the user informing them that they now have access to the Online Validator.
 
 <p>To be added as a user, you will need to provide your Manager with:</p>
 - an email address associated with an appropriate Australian jurisdiction (i.e. one of the Australian States or Territories or the Australian Government);
@@ -45,6 +45,6 @@ last_modified: Wednesday, 03 June 2015, 08:28:17
 <p>You may update your personal details via the "Manage Details" tab in the Menu Bar, including updating your mobile number, email address or name.</p>
 
 ### Delete a User from the System
-<p>If you require a User to be removed from the system, please contact an Administrator via support@validator.com.au.</p>
+<p>If you require a User to be removed from the system, please contact an Administrator via <a href="mailto:support@validator.com.au">support@validator.com.au</a>.</p>
 
 <p>&nbsp;</p>

@@ -1,13 +1,13 @@
 ---
 layout: default
 title: NOCC-CMHC PersId Comparison Report
-direction: MDS Validator Documentation
+direction: Online Validator Documentation
 directory:
   - url: /mds-validator/index.html
-    name: MDS Validator Documentation
+    name: Online Validator Documentation
 last_modified: Wednesday, 05 November 2014, 15:49:38
 ---
-<p>AMHOCN and Strategic Data have developed a new NOCC-CMHC PersId Comparison Report for the MDS Validator.</p>
+<p>AMHOCN and Logicly have developed a NOCC-CMHC PersId Comparison Report for the Online Validator.</p>
 <p>This report shows the amount of overlap between the patient identifiers in the NOCC and the CMHC. It has been designed to assist jurisdictions in understanding the integrity of these identifiers for the purposes of subsequent linkage when reporting coverage estimates as is the case with Mental Health Services Performance Indicator (MHS PI) 14, Outcomes readiness.</p>
 <p>The NOCC and CMHC Total columns indicate the total number of unique person Ids found in the respective file for the given entity (i.e., at a jurisdiction, region and organisational level).</p>
 <p>The Shared Total column indicates the number of unique Ids found in both files. The NOCC and CMHC Shared columns indicate the percentage of their dataset's identifiers that were shared with the other dataset.</p>
