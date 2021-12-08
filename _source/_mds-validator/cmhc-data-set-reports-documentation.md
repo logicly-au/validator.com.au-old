@@ -1,10 +1,10 @@
 ---
 layout: default
 title: CMHC Data-set Reports Documentation
-direction: MDS Validator Documentation
+direction: Online Validator Documentation
 directory:
   - url: /mds-validator/index.html
-    name: MDS Validator Documentation
+    name: Online Validator Documentation
 last_modified: Monday, 07 July 2014, 09:19:46
 ---
 <h2>Report Types</h2>
