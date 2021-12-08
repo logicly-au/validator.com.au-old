@@ -11,7 +11,7 @@ last_modified: Wednesday, 03 June 2015, 08:28:17
 <li>Table of contents</li>
 </ul>
 ## Requesting and Managing Access to the Online Validator
-<p>Access to the Online Validator system is managed via the Strategic Data Authentication System (SDAS): <a href="https://auth.strategicdata.com.au">https://auth.strategicdata.com.au</a></p>
+<p>Access to the Online Validator system is managed via the Logicly's Authentication System. Please note this is still accessed via <a href="https://auth.strategicdata.com.au">https://auth.strategicdata.com.au</a></p>
 
 <p>This system enables users and their managers to register for and manage access to the Online Validator, however, as it is currently in development Logicly will continue to manage this process.    </p>
 
@@ -31,7 +31,7 @@ last_modified: Wednesday, 03 June 2015, 08:28:17
 <p>Once your manager has requested that you be added you as a user, you will be sent an email with a link to a verification page. The verification code required to access the site will be sent via SMS to your registered mobile phone number.</p>
 
 1. Follow the instructions in the verification email to begin your registration (please be aware that the access link and codes are only viable for a short period of time, so please register as soon as you receive your email).
-2. After registration you will have access to the SDAS, but you will not have any functional attributes.
+2. After registration you will have access to our Authentication System, but you will not have any functional attributes.
 3. The administrators will be notified that you have registered and will grant you the correct attributes to access, upload or review the correct file types.
 
 ### Requesting a new user be added - instructions for managers
