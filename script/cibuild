@@ -20,8 +20,7 @@ sudo chmod -R a+w vendor
 docker-compose run site bundle install
 
 # Build and test _site
-# having issues with htmlproofer - disabling for now
-# docker-compose run site rake test
+docker-compose run site rake test
 
 docker run -v $(pwd)/_site:/app stratdat/html5validator
 
