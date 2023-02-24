@@ -2,8 +2,6 @@
 
 TODO: force a commit 0
 
-[![Build Status](https://www.travis-ci.com/strategicdata/validator.com.au.svg?branch=master)](https://www.travis-ci.com/strategicdata/validator.com.au)
-
 ## Development
 
 1. Create a branch for your change (e.g. `checkout -b my-important-change`)
@@ -30,6 +28,6 @@ Jekyll will exit once done
 
 1. Push your changes on your branch to github
 1. Create a pull request agains `master`
-1. TravisCI will build and test your changes
+1. GitHub Actions will build and test your changes
 1. If 3 is successful you can merge your changes into `master`
 1. Delete your working branch if you are finished with it
