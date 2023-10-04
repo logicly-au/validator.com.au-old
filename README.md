@@ -7,24 +7,24 @@ TODO: force a commit 0
 ## Development
 
 1. Create a branch for your change (e.g. `checkout -b my-important-change`)
-1. `docker-compose up -d`
+1. `docker compose up -d`
 1. Edit files in `_source` directory to make changes
 1. Check your changes at http://localhost:4000
 1. Repeat 3 & 4 until satisfied
 
 ### Build and test
 
-`docker-compose run site rake test`
+`docker compose run site rake test`
 
 ### Build only
 
 Jekyll will exit once done
 
-`docker-compose run site jekyll build`
+`docker compose run site jekyll build`
 
 ### Update rubygems
 
-`docker-compose run site bundle update`
+`docker compose run site bundle update`
 
 ## Deploying
 
