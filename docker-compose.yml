@@ -3,7 +3,6 @@ services:
   site:
     read_only: true
     command: jekyll serve
-    # image: jekyll/jekyll:4.1.0
     image: jekyll/jekyll:stable
     tmpfs:
       - /var/tmp
