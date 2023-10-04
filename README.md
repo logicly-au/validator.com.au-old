@@ -1,7 +1,5 @@
 # validator.com.au
 
-TODO: force a commit 0
-
 ## Development
 
 1. Create a branch for your change (e.g. `checkout -b my-important-change`)
@@ -12,22 +10,22 @@ TODO: force a commit 0
 
 ### Build and test
 
-`docker compose run site rake test`
+`docker compose run --rm site rake test`
 
 ### Build only
 
 Jekyll will exit once done
 
-`docker compose run site jekyll build`
+`docker compose run --rm site jekyll build`
 
 ### Update rubygems
 
-`docker compose run site bundle update`
+`docker compose run --rm site bundle update`
 
 ## Deploying
 
 1. Push your changes on your branch to github
-1. Create a pull request agains `master`
+1. Create a pull request against `main`
 1. GitHub Actions will build and test your changes
-1. If 3 is successful you can merge your changes into `master`
+1. If 3 is successful you can merge your changes into `main`
 1. Delete your working branch if you are finished with it
