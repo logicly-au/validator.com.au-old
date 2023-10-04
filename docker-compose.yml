@@ -5,7 +5,9 @@ services:
     command: jekyll serve
     image: jekyll/jekyll:stable
     tmpfs:
-      - /tmp
+      - /var/tmp
+    environment:
+      - TMPDIR=/var/tmp
     volumes:
       - .:/srv/jekyll
       - ./vendor/home/jekyll:/home/jekyll
