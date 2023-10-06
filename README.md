@@ -29,3 +29,13 @@ Jekyll will exit once done
 1. GitHub Actions will build and test your changes
 1. If 3 is successful you can merge your changes into `main`
 1. Delete your working branch if you are finished with it
+
+## Setup
+
+If things aren't working, try running the setup script.
+
+```
+./setup.sh
+```
+
+If that doesn't work hit up the `#devel` channel in slack.
