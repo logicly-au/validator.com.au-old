@@ -34,8 +34,8 @@ Jekyll will exit once done
 
 If things aren't working, try running the setup script.
 
-```
-./setup.sh
+```bash
+./script/setup
 ```
 
 If that doesn't work hit up the `#devel` channel in slack.
