@@ -112,7 +112,6 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer
-  jekyll
   jekyll-last-modified-at
   rake
 
