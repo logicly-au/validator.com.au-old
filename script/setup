@@ -2,6 +2,8 @@
 
 rm Gemfile.lock
 
+docker compose pull
+
 if [ -d ./vendor ]; then
     docker compose run --rm site bundle
 else 
