@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>CMHC Data-set Reports Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="" />
+
+    <meta name="author" content="Strategic Data">
+
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"
+        type="text/javascript">
+    </script>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"
+        type="text/javascript">
+    </script>
+
+    <!-- styles -->
+    <link href="https://webval.validator.com.au/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <link href="https://webval.validator.com.au/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+
+    <link href="https://webval.validator.com.au/bootstrap/css/custom.css" rel="stylesheet" />
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!-- ES5 shim, for IE8 support of ECMAscript-5 methods -->
+<!--[if lt IE 9]>
+  <script src="https://webval.validator.com.au/js/html5shiv.js"></script>
+  <script src="https://webval.validator.com.au/js/es5-shim.min.js"></script>
+<![endif]-->
+
+<!-- end Bootstrapping -->
+    <!-- Added for superfish -->
+    <link rel="stylesheet" href="/assets/styles/superfish.css" media="screen" />
+    <link rel="stylesheet" href="/assets/styles/superfish-vertical.css" media="screen" />
+    <script type="text/javascript" src="/assets/scripts/hoverIntent.js"></script>
+    <script type="text/javascript" src="/assets/scripts/superfish.js"></script>
+
+  <link href="/assets/styles/validator.css" rel="stylesheet" />
+
+  <!-- initialise Superfish -->
+  <script>
+    jQuery(document).ready(function(){
+      jQuery('ul.sf-menu').superfish();
+    });
+  </script>
+
+  <!-- Added for Table of Contents jQuery Plugin -->
+  <script src="/assets/scripts/jquery.tableofcontents.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+     $(document).ready(function(){ $("#toc").tableOfContents(); });
+
+     $(document).ready(function(){
+       $("#toc").tableOfContents(
+          null,                // Default scoping
+          {
+             startLevel: 2,    // H2 and up
+             depth: 3          // H2 to H4
+          }
+        );
+     });
+  </script>
+    <!--
+	This website is powered by ProcessWire CMF/CMS.
+	ProcessWire is a free open source content management framework licensed under the GNU GPL.
+	ProcessWire is Copyright 2012 by Ryan Cramer / Ryan Cramer Design, LLC.
+	Learn more about ProcessWire at: http://processwire.com
+    -->
+</head>
+
+<body>
+    <div id="jumplinks">
+    <a href="index.html#main-content">Skip to main content</a>
+</div>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+    <ul id="left-menubar" class="nav pull-left sf-menu">
+        <li><a href="/index.html" title="Home">Home</a></li>
+        <li>
+            <a href="/mds-validator/index.html" title="Online Validator Documentation">Online Validator Documentation</a>
+            <ul>
+                
+                    <li><a href="/mds-validator/changelog/">Online Validator Change Log</a></li>
+                
+                    <li><a href="/mds-validator/cmhc-data-set-reports-documentation/">CMHC Data-set Reports Documentation</a></li>
+                
+                    <li><a href="/mds-validator/data-file-naming-convention/">Data File Naming Convention</a></li>
+                
+                    <li><a href="/mds-validator/major-systems-operations/">Major Systems Operation</a></li>
+                
+                    <li><a href="/mds-validator/nocc-cmhc-persid-comparison-report/">NOCC-CMHC PersId Comparison Report</a></li>
+                
+                    <li><a href="/mds-validator/register-for-mds-online-validator/">Registering for the Online Validator</a></li>
+                
+            </ul>
+        </li>
+        <li>
+            <a href="/mhe-nmds-data-entry-tool/index.html" title="MHE NMDS Data Entry Tool">MHE NMDS Data Entry Tool</a>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2022-2023/">2022-2023</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2021-2022/">2021-2022</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2020-2021/">2020-2021</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2019-2020/">2019-2020</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2018-2019/">2018-2019</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2017-2018/">2017-2018</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2016-2017/">2016-2017</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2015-2016/">2015-2016</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2014-2015/">2014-2015</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2013-2014/">2013-2014</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2012-2013/">2012-2013</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2011-2012/">2011-2012</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2010-2011/">2010-2011</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2009-2010/">2009-2010</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2008-2009/">2008-2009</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2007-2008/">2007-2008</a>
+                    </li>
+                
+                    <li>
+                        <a href="/mhe-nmds-data-entry-tool/2006-2007/">2006-2007</a>
+                    </li>
+                
+            </ul>
+        </li>
+    </ul>
+
+    <ul id="right-menubar" class="nav pull-right sf-menu">
+        <li><a href="/site-map/index.html" title="Site Map">Site Map</a></li>
+        <li><a href="/about/index.html" title="About">About</a></li>
+    </ul>
+</div>
+</div>
+</div>
+
+    
+        
+
+    <div class="container-fluid">
+        <div class="content_outer">
+            <div class="content_inner">
+                <ul class='breadcrumb'>
+                    <li><a href='/index.html'>Home</a><span class='divider'>&rarr;</span></li>
+                    
+                        
+
+                            <li><a href="/mds-validator/index.html">Online Validator Documentation</a><span class='divider'>&rarr;</span></li>
+                        
+                    
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="main-content">
+                        <h1>CMHC Data-set Reports Documentation</h1>
+
+    
+    <h2>Report Types</h2>
+<h3>Client and Activity</h3>
+<p>Client reports present contact and client counts and the like, broken down by client demographic information (age, sex, etc.). Activity reports present contact, client, contact hours and treatment days broken down by registration status (is the client registered on the system or is the person generated by the presence of a contact).</p>
+<h3>Historical and Non-historical</h3>
+<p>Historical reports compare on year with the previous, reporting changes. There's now only one non-historical report, as it would be unwieldly in that format.</p>
+<h2>General Principles</h2>
+<h3>Person at Organisation, Cluster and Service Unit Levels</h3>
+<p>The person identifiers are defined at ORG level but are reported below SERV on PER records. This leads to various complications. Inconsistent values at a PER level is caught by the *Differs rules, but it's still possible to have one valid value and some number of Missing values (or all Missing). Counted differently at different SERV and ORG entity levels:</p>
+<ul>
+<li>Same person (orgid+persid) in two units of the same org</li>
+<li>Same person (orgid+persid) in two units of the same org on same day</li>
+</ul>
+<p>Both could be counted as 2 at reports below ORG and 1 above.</p>
+<h3>Variable Person Attributes</h3>
+<p>The general principle is to use the most recent valid value. In situations where multiple values can be taken by a person, either different values on PER records in different SERVs or over time on CON attributes, then the most recent (ContDt) valid value should be consistently used in all reports. "Valid" depends on the particular variable, but generally just means non-missing and mappable.</p>
+<h3>Variable Person DxPrinc Same-day</h3>
+<p>Find most-recent contact diagnosis prefix for each person. In the case of a multiple, last-day CONs, the RecordId is taken as a stable, albeit arbitrary, tie-breaker. <!--(<a href="https://rt.strategicdata.com.au/Ticket/Display.html?id=176799">RT:176799</a>)--></p>
+<h3>Country of Birth Priority</h3>
+<p>CoB codes in priority order:</p>
+<ol>
+<li>Valid: 0001,1000,1100-9999(not 1603)</li>
+<li>Not Stated: 0003</li>
+<li>Inadequately Described: 0000</li>
+<li>Other: ' ' or out of valid 1603,0002,0004-0999,1001-1099</li>
+</ol>
+<p>These priority classes are used by the most recent, valid value rule. Some are more valid than others.</p>
+<h3>Date of Birth Priority</h3>
+<p>More accurate values of DoBFlag are preferred (if present).</p>
+<h3>Person Age</h3>
+<p>This is calculated at the RepEnd reporting period end date and used in AgeGroup reports.</p>
+<h3>Treatment Day Calculation</h3>
+<p>"Treatment Days" are calculated separately at SERV, CLUS and ORG levels with the result that one ORG person seeing two units on the same day will count as 2 at the lower level and 1 at the higher level.</p>
+<!--<p><a href="#ReportHA4">Treatment Days Report</a></p>
+Following info commented out following discussion with AC on 3/7/14 - information appears to no longer be relevant.
+<h2>Aggregate Report Views</h2>
+<h3>Historical Jurisidication Snap-shot (HJSS)</h3>
+<p>The HJSS view combines a selection of other reports.</p>
+<p><a href="#ReportH1">#Report H1</a> <a href="#ReportH2">#Report H2</a> <a href="#ReportH4">#Report H4</a> <a href="#ReportH5">#Report H5</a> <a href="#ReportHA9">#Report HA9</a> <a href="#ReportH9">#Report H9</a> <a href="#ReportH7">#Report H7</a> <a href="#ReportHC1B">#Report HC1 B</a> <a href="#ReportHC6B">#Report HC6 B</a> <a href="#ReportHC8B">#Report HC8 B</a></p>
+<h2>Report Detailed Notes</h2>
+<h3><a name="ReportH1"></a>A1.1 - Number of clients by registration status Person identifier flag</h3>
+<h3><a name="ReportH2"></a>A1.2 - Number of contacts by registration status Person identifier flag</h3>
+<h3><a name="ReportH3"></a>A1.3 - Number of treatment days by registration status. Person identifier flag</h3>
+<h3><a name="ReportH4"></a>A2.1 - Number of contacts per client by registration status Person identifier flag</h3>
+<h3><a name="ReportH5"></a>A2.2 - Number of treatment days per client by registration status. Person identifier flag</h3>
+<h3><a name="ReportH6"></a>A2.3 - Number of contact hours per client by registration status</h3>
+<h3><a name="ReportHA3"></a>A3 - Number of registered clients by number of contacts for client</h3>
+<h3><a name="ReportHA4"></a>A4 - Number of registered clients by treatment days for client</h3>
+<h3><a name="ReportHA5"></a>A5 - Number of registered clients by number of contact hours</h3>
+<h3><a name="ReportH8"></a>A6 - Number of registered contacts by session type</h3>
+<h3><a name="ReportHA9"></a>A7 - Number of registered contacts by session type and client participation indicator</h3>
+<h3><a name="ReportH9"></a>A8 - Number of registered contacts by legal status</h3>
+<h3><a name="NonHistorical"></a><a name="ReportA9"></a>A9.1 - Number of registered contacts by contact duration and client participation indicator</h3>
+<h3><a name="ReportH7"></a>A9.2 - Number of registered contacts by client participation indicator</h3>
+<h3><a name="ReportHC1A"></a>C1.1 - Registered clients by age group</h3>
+<h3><a name="ReportHC1B"></a>C1.2 - Registered contacts by age group</h3>
+<h3><a name="ReportHC2A"></a>C2.1 - Number of registered clients by sex</h3>
+<h3><a name="ReportHC2B"></a>C2.2 - Number of registered contacts by sex</h3>
+<h3><a name="ReportHC3A"></a>C3.1 - Number of registered clients by area of usual residence</h3>
+<h3><a name="ReportHC3B"></a>C3.2 - Number of registered contacts by area of usual residence</h3>
+<h3><a name="ReportHC4A"></a>C4.1 - Region of birth by number of registered clients</h3>
+<h3><a name="ReportHC4B"></a>C4.2 - Region of birth by number of registered contacts</h3>
+<h3><a name="ReportHC5A"></a>C5.1 - Estimated date of birth flag by number of registered clients</h3>
+<h3><a name="ReportHC5B"></a>C5.2 - Estimated date of birth flag by number of registered contacts</h3>
+<h3><a name="ReportHC6A"></a>C6.1 - Indigenous status by number of registered clients</h3>
+<h3><a name="ReportHC6B"></a>C6.2 - Indigenous status by number of registered contacts</h3>
+<h3><a name="ReportHC7A"></a>C7.1 - Marital status by number of registered clients</h3>
+<h3><a name="ReportHC7B"></a>C7.2 - Marital status by number of registered contacts</h3>
+<h3><a name="ReportHC8A"></a>C8.1 - Principal Diagnosis (specified mix of 2 and 3 digit ICD codes) by number of registered clients</h3>
+<h3><a name="ReportHC8B"></a>C8.2 - Principal Diagnosis (specified mix of 2 and 3 digit ICD codes) by number of registered contacts</h3>
+<h2>Report Names Correspondence</h2>
+<table border="0" cellpadding="4" align="left">
+<tbody>
+<tr>
+<td><strong>Code</strong></td>
+<td><strong>Label</strong></td>
+<td><strong>Title</strong></td>
+</tr>
+<tr>
+<td>H1</td>
+<td>A1.1</td>
+<td>Number of clients by registration status</td>
+</tr>
+<tr>
+<td>H2</td>
+<td>A1.2</td>
+<td>Number of contacts by registration status</td>
+</tr>
+<tr>
+<td>H3</td>
+<td>A1.3</td>
+<td>Number of treatment days by registration status</td>
+</tr>
+<tr>
+<td>H4</td>
+<td>A2.1</td>
+<td>Number of contacts per client by registration status</td>
+</tr>
+<tr>
+<td>H5</td>
+<td>A2.2</td>
+<td>Number of treatment days per client by registration status</td>
+</tr>
+<tr>
+<td>H6</td>
+<td>A2.3</td>
+<td>Number of contact hours per client by registration status</td>
+</tr>
+<tr>
+<td>HA3</td>
+<td>A3</td>
+<td>Number of registered clients by number of contacts for client</td>
+</tr>
+<tr>
+<td>HA4</td>
+<td>A4</td>
+<td>Number of registered clients by treatment days for client</td>
+</tr>
+<tr>
+<td>HA5</td>
+<td>A5</td>
+<td>Number of registered clients by number of contact hours</td>
+</tr>
+<tr>
+<td>H8</td>
+<td>A6</td>
+<td>Number of registered contacts by session type</td>
+</tr>
+<tr>
+<td>HA9</td>
+<td>A7</td>
+<td>Number of registered contacts by session type and client participation indicator</td>
+</tr>
+<tr>
+<td>H9</td>
+<td>A8</td>
+<td>Number of registered contacts by legal status</td>
+</tr>
+<tr>
+<td>A9</td>
+<td>A9.1</td>
+<td>Number of registered contacts by contact duration and client participation indicator</td>
+</tr>
+<tr>
+<td>H7</td>
+<td>A9.2</td>
+<td>Number of registered contacts by client participation indicator</td>
+</tr>
+<tr>
+<td>HC1A</td>
+<td>C1.1</td>
+<td>Registered clients by age group</td>
+</tr>
+<tr>
+<td>HC1B</td>
+<td>C1.2</td>
+<td>Registered contacts by age group</td>
+</tr>
+<tr>
+<td>HC2A</td>
+<td>C2.1</td>
+<td>Number of registered clients by sex</td>
+</tr>
+<tr>
+<td>HC2B</td>
+<td>C2.2</td>
+<td>Number of registered contacts by sex</td>
+</tr>
+<tr>
+<td>HC3A</td>
+<td>C3.1</td>
+<td>Number of registered clients by area of usual residence</td>
+</tr>
+<tr>
+<td>HC3B</td>
+<td>C3.2</td>
+<td>Number of registered contacts by area of usual residence</td>
+</tr>
+<tr>
+<td>HC4A</td>
+<td>C4.1</td>
+<td>Region of birth by number of registered clients</td>
+</tr>
+<tr>
+<td>HC4B</td>
+<td>C4.2</td>
+<td>Region of birth by number of registered contacts</td>
+</tr>
+<tr>
+<td>HC5A</td>
+<td>C5.1</td>
+<td>Estimated date of birth flag by number of registered clients</td>
+</tr>
+<tr>
+<td>HC5B</td>
+<td>C5.2</td>
+<td>Estimated date of birth flag by number of registered contacts</td>
+</tr>
+<tr>
+<td>HC6A</td>
+<td>C6.1</td>
+<td>Indigenous status by number of registered clients</td>
+</tr>
+<tr>
+<td>HC6B</td>
+<td>C6.2</td>
+<td>Indigenous status by number of registered contacts</td>
+</tr>
+<tr>
+<td>HC7A</td>
+<td>C7.1</td>
+<td>Marital status by number of registered clients</td>
+</tr>
+<tr>
+<td>HC7B</td>
+<td>C7.2</td>
+<td>Marital status by number of registered contacts</td>
+</tr>
+<tr>
+<td>HC8A</td>
+<td>C8.1</td>
+<td>Principal Diagnosis (specified mix of 2 and 3 digit ICD codes) by number of registered clients</td>
+</tr>
+<tr>
+<td>HC8B</td>
+<td>C8.2</td>
+<td>Principal Diagnosis (specified mix of 2 and 3 digit ICD codes) by number of registered contacts</td>
+</tr>
+</tbody>
+</table>
+<h2>References</h2>
+<p><a href="https://rt.strategicdata.com.au/Ticket/Display.html?id=89181">RT:89181</a> <a href="https://rt.strategicdata.com.au/Ticket/Display.html?id=97760">RT:97760</a> <a href="https://rt.strategicdata.com.au/Ticket/Display.html?id=173816">RT:173816</a> <a href="https://rt.strategicdata.com.au/Ticket/Display.html?id=176799">RT:176799</a> <a href="https://rt.strategicdata.com.au/Ticket/Display.html?id=173816">RT:173816</a> and others.</p>
+-->
+<p>&nbsp;</p>
+
+    
+        
+    <div id='last-modified' class='pull-right'>
+      <p>Last modified: Friday, 06-10-2023, 03:41.</p>
+    </div>
+                    <div class="clear-float">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
