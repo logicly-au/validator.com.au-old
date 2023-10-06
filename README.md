@@ -38,4 +38,10 @@ If things aren't working, try running the setup script.
 ./script/setup
 ```
 
-If that doesn't work hit up the `#devel` channel in slack.
+If problems persist use the clean mode.
+
+```bash
+./script/setup --clean
+```
+
+If that still doesn't work hit up the `#devel` channel in slack.

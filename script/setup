@@ -1,11 +1,41 @@
 #!/usr/bin/env bash
 
-rm Gemfile.lock
+set -e
+
+usage() {
+      echo "usage:"
+      echo
+      echo "./script/clean [-c|--clean]"
+}
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -c|--clean)
+      CLEAN=true
+      shift # past argument
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    *)
+      usage
+      exit 1
+      ;;
+  esac
+done
+
+if [ "${CLEAN}" ]; then
+    rm -rf \
+        Gemfile.lock \
+        vendor \
+        _site
+fi
 
 docker compose pull
 
 if [ -d ./vendor ]; then
-    docker compose run --rm site bundle
+    docker compose run --rm site bundle update
 else 
     docker compose run --rm site bundle --full-index
 fi
