@@ -53,18 +53,6 @@ jobs:
         with:
           pages_threshold: major_outage
 
-      # Commit _site as gh-pages branch
-      #- name: Deploy to GitHub Pages
-      #  if: success()
-      #  uses: crazy-max/ghaction-github-pages@v4
-      #  with:
-      #    build_dir: _site
-      #    fqdn: www.validator.com.au
-      #    jekyll: false
-      #    target_branch: gh-pages
-      #  env:
-      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
