@@ -42,21 +42,27 @@ jobs:
           entrypoint: html5validator
           args: --root /github/workspace/_site
 
-      # push to ghpages
+      # check GH Pages status
       - name: Check GitHub Pages status
         uses: crazy-max/ghaction-github-status@v4
         with:
           pages_threshold: major_outage
 
       # Commit _site as gh-pages branch
-      - name: Deploy to GitHub Pages
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v4
+      #- name: Deploy to GitHub Pages
+      #  if: success()
+      #  uses: crazy-max/ghaction-github-pages@v4
+      #  with:
+      #    build_dir: _site
+      #    fqdn: www.validator.com.au
+      #    jekyll: false
+      #    target_branch: gh-pages
+      #  env:
+      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          build_dir: _site
-          fqdn: www.validator.com.au
-          jekyll: false
-          target_branch: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
 

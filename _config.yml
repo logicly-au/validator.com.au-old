@@ -30,3 +30,6 @@ destination: _site
 # Plugins
 plugins:
   - jekyll-last-modified-at
+
+include:
+  - .nojekyll
